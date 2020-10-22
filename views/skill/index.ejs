@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Terence's Skills</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Terence's Skill Set</h1>
+    <ul>
+      <% for(let i = 0; i<skills.length; i++) { %>
+        <li><a href ="/skills/<%= i %>" > <%= skills[i]%></a></li>
+      <% } %>
+    </ul>
+
+    <a href="/skills/new">Click here to add new skills</a>
+
+  </body>
+</html>
+
+
+
